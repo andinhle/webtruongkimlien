@@ -1,0 +1,101 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            font-family: arial;
+        }
+        h2{
+            text-align: center;
+            font-family: arial;
+            color: white;
+            line-height: 40px;
+        }
+        .nav-content{
+            width: auto;
+            height: 40px;
+            background-color: #0673C5;
+            border-radius: 5px;
+        }
+        .star-vote{
+            width: 600px;
+        }
+        input{
+            width: 267px;
+            height: 40px;
+            display: block;
+            border: none;
+            outline: none;
+            margin: 10px 0px;
+            padding-left: 10px;
+            border-radius: 5px;
+        }
+        textarea{
+            margin: 10px 0px;
+            border: none;
+            outline: none;
+            padding-left: 10px;
+            border-radius: 5px;
+        }
+        .form-vote{
+            width: 300px;
+            height: 450px;
+            margin: 0 auto;
+            background-color: #92c3e9;
+            box-shadow: rgba(6, 0, 0, 0.2) 1px 7px 29px 0px;
+            border-radius: 10px;
+        }
+        .star-vote{
+            width: auto;
+            padding: 10px 0px;
+        }
+        .fa-star{
+            padding: 0px 15px;
+        }
+        .star-vote:hover .fa-star{
+            color: #0673C5;
+        }
+        button{
+            width: 100px;
+            height: 40px;
+            background-color: #0673C5;
+            border-radius: 10px;
+            color: white;
+            border: none;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+        .form-vote-ins{
+            padding: 10px 0px;
+            margin: 25px 15px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="nav-content">
+        <h2>Góp ý</h2>
+    </div>
+    <form class="form-vote" action="">
+        <div class="form-vote-ins">
+            <div class="star-vote">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <div>
+                <input placeholder="Họ tên" type="text">
+                <textarea placeholder="Phản hồi" name="" id="" cols="30" rows="10"></textarea>
+                <input placeholder="Nhập email"  type="email">
+                <input placeholder="Nhập SĐT"  type="">
+                <button type="submit">Gửi</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
